@@ -11,9 +11,11 @@ echo "who is running current script: $(realpath $0)"
 echo "Directory of the current script:$pwd"
 echo "Home dorectory of the currect user:$Home"
 echo "PID of the current script:$$"
-echo "sleep 10 &
+echo sleep 10 &
 echo "PID of the command running in the background:$!"
 echo "Line number :$LINENO"
 wait $!
 echo "previous command exist status:$?"
 echo "Total time executed for this script: $Seconds"
+echo "currect user: $user"
+echo "completed"
