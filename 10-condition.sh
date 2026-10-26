@@ -1,15 +1,13 @@
 #!/bin/bash
-echo "plase enter the marks"
-read marks
-if [$marks -lt 33]
-echo "Fail"
-elif[$marks -ge 33 -a $marks -lt 50]
-echo "third class"
-elif[$marks -ge 50 -a $marks -lt 60]
-echo "second class"
-elif[$marks -ge 60 -a $marks -lt 100]
-echo "first calss "
+
+if [ $marks -lt 33 ]; then
+    echo "Fail"
+elif [ $marks -ge 33 ] && [ $marks -lt 50 ]; then
+    echo "Third class"
+elif [ $marks -ge 50 ] && [ $marks -lt 60 ]; then
+    echo "Second class"
+elif [ $marks -ge 60 ] && [ $marks -le 100 ]; then
+    echo "First class"
 else
-echo "invalid marks"
+    echo "Invalid marks"
 fi
-echo "completed"
