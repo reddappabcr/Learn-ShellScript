@@ -10,6 +10,6 @@ echo "second class"
 elif[$marks -ge 60 -a $marks -lt 100]
 echo "first calss "
 else
-echo"invalid marks"
+echo "invalid marks"
 fi
 echo "completed"
