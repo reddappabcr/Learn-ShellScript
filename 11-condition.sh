@@ -19,6 +19,6 @@ if [ $? -ne 0 ]; then
 echo " my sql installation is failed"
 exit 1
 else
-echo " my sql installation is completed
+echo " my sql installation is completed"
 fi
-echo "still proceed"
+echo "still proceeded"
