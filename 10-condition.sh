@@ -1,5 +1,6 @@
 #!/bin/bash
-
+echo " enter marks"
+read marks
 if [ $marks -lt 33 ]; then
     echo "Fail"
 elif [ $marks -ge 33 ] && [ $marks -lt 50 ]; then
